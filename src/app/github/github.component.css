@@ -1,0 +1,61 @@
+* {
+  margin: 0px;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.mb-5 {
+  background-color: cyan;
+  color: black;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+h2 {
+  color: rgb(10, 10, 10);
+}
+
+.row {
+  margin-top: 5px;
+  padding-top: 20px;
+}
+
+img {
+  margin-top: -50px;
+}
+
+.card {
+  margin-top: 50px;
+  box-shadow: 5px 50x 15px #e74c3c;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+}
+
+.card-body:hover {
+  background: #3c6ae7;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 5px 50x 10px #a805da;
+}
+
+.card-body {
+  background-color: white;
+}
+
+#repos p {
+  font-size: 15px;
+}
+
+#repos .card {
+  width: 30vh;
+  text-align: center;
+}
+
+#users .card {
+  width: 30vh;
+}

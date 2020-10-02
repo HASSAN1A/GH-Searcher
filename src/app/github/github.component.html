@@ -1,0 +1,35 @@
+<div class="container-fluid my-1 py-2 text-center">
+    <app-search-form (emitSearch)="search($event)"></app-search-form>
+    <div class="row mb-5">
+        <div class="col-md-6" id="users" *ngIf='users'>
+            <h2>Users</h2>
+            <div class="row">
+                <div class="col-md-6" *ngFor='let user of users; let i = index'>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="{{user.picture}}" alt="" class="image-fluid rounded-circle w-50 mb-3">
+                            <h3>{{user.name}}</h3>
+                            <button class="btn btn-secondary" (click)="goToUrl(user.id)">Profile</button>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6" id="repos" *ngIf='repositories'>
+            <h2>Repositories</h2>
+            <div class="row">
+                <div class="col-md-6" *ngFor='let repository of repositories; let i = index'>
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 appHighlight *ngIf="hPoint()===repository.score && repository.score>0"><strong>{{repository.name}}</strong></h3><br>
+                            <h3 *ngIf="hPoint()!==repository.score || repository.score===0"><strong>{{repository.name}}</strong></h3><br>
+                            <p><strong>Author:</strong> {{repository.user}}</p><br>
+                            <a href="{{repository.link}}" class="btn btn-primary">GitHub Link</a><br>
+                            <p><strong>Created: </strong>{{repository.dateCreated|date}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

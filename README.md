@@ -1,6 +1,6 @@
 # GH-Searcher
 
-A very interactive quots web app that uses forms to let someone view ,add,vote and delete quote and share it with others who may visit the website.
+A very interactive search web app that uses a simple forms to get users and their repository at GitHub.
 
 ## Demo
 
@@ -54,7 +54,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 4. [Bootstrap](https://getbootstrap.com/docs/4.5/components/jumbotron/) - Extensive list of components and Bundled Typecript plugins.
 
 5. [Angular](https://angular.io/) - Angular simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.
-6. [Figma](https://www.figma.com/file/Z9e20gLR7K6R8w7zPhM9Wc/Quotes?node-id=0%3A1) - Blueprint for designing the web app.
+6. [API](https://developer.github.com/v3/) - Blueprint for getting the users and their repositories.
 
 # To-do
 
@@ -66,4 +66,4 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 ## [License](https://github.com/HASSAN1A/GH-Searcher/blob/master/LICENSE.md)
 
-[MIT](https://github.com/HASSAN1A/Quotes/blob/master/LICENSE.md) © [Hassan Juma](https://github.com/HASSAN1A)
+[MIT](https://github.com/HASSAN1A/GH-Searcher/blob/master/LICENSE.md) © [Hassan Juma](https://github.com/HASSAN1A)

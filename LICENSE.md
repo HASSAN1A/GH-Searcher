@@ -3,6 +3,7 @@ The Star And Thank Author License (SATA)
 Copyright (c) [2020] [Hassan Juma](https://https://github.com/HASSAN1A) <okothhassanjuma@gmail.com>
 
 Project Url:https://github.com/HASSAN1A/GH-Searcher
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

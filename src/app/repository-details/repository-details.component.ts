@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-repository-details',
-  templateUrl: './repository-details.component.html',
-  styleUrls: ['./repository-details.component.css']
+  selector: "app-repository-details",
+  templateUrl: "./repository-details.component.html",
+  styleUrls: ["./repository-details.component.css"],
 })
 export class RepositoryDetailsComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

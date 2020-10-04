@@ -1,4 +1,4 @@
-# Quotes
+# GH-Searcher
 
 A very interactive quots web app that uses forms to let someone view ,add,vote and delete quote and share it with others who may visit the website.
 
@@ -12,13 +12,13 @@ Here is a working live demo :https://hassan1a.github.io/Quotes/
 
 This web app starts with Quotes which can be used by the user .It let the user to vote or delete the Quote and add another quote.
 
-![](https://github.com/HASSAN1A/Quotes)
+![](https://github.com/HASSAN1A/GH-Searcher)
 
 ## Mobile support
 
 The Web is compatible with devices of all sizes and all OS's, and consistent improvements are being made to make sure no device or OS's is left out.
 
-![](https://github.com/HASSAN1A/Quotes)
+![](https://github.com/HASSAN1A/GH-Searcher)
 
 ## [Usage](https://hassan1a.github.io/Quotes/)
 
@@ -40,8 +40,8 @@ To fix a bug or enhance an existing module, follow these steps:
 
 ### Bug / Feature Request
 
-If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/HASSAN1A/Quotes/issues/new) by including your search query and the expected result.
-If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/HASSAN1A/Quotes). Please include sample queries and their corresponding results.
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/HASSAN1A/GH-Searcher/issues/new) by including your search query and the expected result.
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/HASSAN1A/GH-Searcher). Please include sample queries and their corresponding results.
 
 ## Built with
 
@@ -64,6 +64,6 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 [Hassan Juma ](https://github.com/HASSAN1A)
 
-## [License](https://github.com/HASSAN1A/Quotes/blob/master/LICENSE.md)
+## [License](https://github.com/HASSAN1A/GH-Searcher/blob/master/LICENSE.md)
 
 [MIT](https://github.com/HASSAN1A/Quotes/blob/master/LICENSE.md) © [Hassan Juma](https://github.com/HASSAN1A)

@@ -8,15 +8,14 @@ h1 {
 }
 
 .a {
-
+  background-color: rgb(4, 4, 105);
   height: 90vh;
   padding-top: 30vh;
   background-repeat: no-repeat;
-  background-size: cover;
   color: rgb(8, 8, 8);
   height: 700px;
   text-orientation: initial;
-  background-position: center;
+  background-position: cover;
   background-size: 100%;
   width: 100%
 }

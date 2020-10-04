@@ -4,7 +4,7 @@ A very interactive quots web app that uses forms to let someone view ,add,vote a
 
 ## Demo
 
-Here is a working live demo :https://hassan1a.github.io/Quotes/
+Here is a working live [DEMO](https://hassan1a.github.io/GH-Searcher/)
 
 ## Site
 
@@ -20,7 +20,7 @@ The Web is compatible with devices of all sizes and all OS's, and consistent imp
 
 ![](https://github.com/HASSAN1A/GH-Searcher)
 
-## [Usage](https://hassan1a.github.io/Quotes/)
+## [Usage](https://hassan1a.github.io/GH-Searcher/)
 
 ### Development
 

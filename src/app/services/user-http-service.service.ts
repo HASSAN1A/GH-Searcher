@@ -11,6 +11,7 @@ export class UserHttpServiceService {
   constructor(private http: HttpClient) {}
 
   searchUser(searchTerm: string) {
+    console.log("environment.API_KEY", environment.API_KEY);
     let searchEndpoint = `https://api.github.com/search/users?access_token=${environment.API_KEY}&q=${searchTerm}+repos:repos:%3E10`;
     let promise = new Promise((resolve, reject) => {
       this.http
